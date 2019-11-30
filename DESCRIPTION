@@ -1,0 +1,17 @@
+Package: csrrr
+Type: Package
+Title: Multivariate Response Best Subset Selection in Reduced Rank
+        Regression
+Version: 1.0.3
+Date: 2018-04-12
+Author: Canhong Wen, Shijie Quan and Xueqin Wang
+Maintainer: Canhong Wen <wench@ustc.edu.cn>
+Description: Multivariate Response Best Subset Selection in Reduced Rank Regression
+License: GPL-3
+Depends: R (>= 3.0.0)
+Imports: Rcpp(>= 0.12.6)
+LinkingTo: Rcpp, RcppEigen
+NeedsCompilation: yes
+Packaged: 2018-07-04 12:22:27 UTC; quanshijief
+URL: http://github.com/hailongba/csrrr
+BugReports: http://github.com/hailongba/csrrr/issues

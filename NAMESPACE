@@ -1,0 +1,15 @@
+useDynLib(csrrr, .registration = TRUE)
+importFrom(Rcpp, evalCpp)
+
+export(mrbess, mrbess.one, cobess, cobess.one, aic, bic, JRRS, gen.data, gen.net)
+
+
+S3method(predict,mrbess)
+S3method(predict,cobess)
+S3method(coef,mrbess)
+S3method(coef,cobess)
+S3method(predict,mrbess.one)
+S3method(predict,cobess.one)
+S3method(coef,mrbess.one)
+S3method(coef,cobess.one)
+S3method(plot,mrbess)
